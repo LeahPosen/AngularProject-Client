@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.navbar-left {
+  order: 1;
+}
+.navbar-right {
+  order: 3; 
+}
+.navbar-left,.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* הוספת כיוון ויישור הטקסט לאמצע */
+  /* flex-grow: 1; */
+}
+.navbar-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0px 16px 0px 0px;
+  text-align: center;
+  color: rgb(194, 24, 91);
+  width: 5vw;
+}
+.navbar-button:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+

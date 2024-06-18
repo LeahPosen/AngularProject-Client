@@ -1,0 +1,8 @@
+.courses-row {
+  width: 98vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+

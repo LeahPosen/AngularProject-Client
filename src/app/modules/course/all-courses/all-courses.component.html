@@ -1,0 +1,9 @@
+<div class="courses-row">
+  <div *ngFor="let course of courses">
+    <app-course [course]="course"></app-course>
+    <!-- <app-edit-details [course]="course" *ngIf="isLecturerOfCourse(course)"></app-edit-details> -->
+  </div>
+</div>
+
+
+<!-- <app-edit-details></app-edit-details> -->
